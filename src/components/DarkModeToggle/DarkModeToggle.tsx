@@ -1,11 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const DarkModeToggle: React.FC = () => {
+const DarkModeToggle = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
+
+    // Initialize dark mode on first render
+    useEffect(() => {
+        document.body.classList.toggle('dark-mode', isDarkMode);
+    }, [isDarkMode]); // Add isDarkMode as dependency
 
     const toggleDarkMode = () => {
         setIsDarkMode(!isDarkMode);
-        document.body.classList.toggle('dark-mode', !isDarkMode);
     };
 
     return (
