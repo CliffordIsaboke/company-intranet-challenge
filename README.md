@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Office Intranet Homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a beautifully designed, interactive office intranet homepage built using React and CSS. It serves as a central hub for employees, providing easy access to company news, quick links, an employee directory, an office calendar, team collaboration tools, and customizable widgets.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Company News**: Displays the latest company updates and announcements with filtering and search capabilities.
+- **Quick Links**: Provides navigation to key resources such as HR policies and internal tools.
+- **Employee Directory**: Lists employees with their contact information, profile pictures, and roles, including search functionality.
+- **Office Calendar**: An interactive calendar showcasing upcoming events.
+- **Team Collaboration**: Displays team-based project boards or chat integrations using mock data.
+- **Customizable Widgets**: Allows users to rearrange sections and add new widgets to personalize their homepage.
+- **Dark Mode**: Toggle between light and dark themes for user preference.
+- **Dynamic Greeting**: Personalized greeting based on the time of day.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- TypeScript
+- CSS (including animations and custom styles)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get a local copy up and running, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/office-intranet-homepage.git
+   ```
 
-### `npm run build`
+2. Navigate to the project directory:
+   ```
+   cd office-intranet-homepage
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the dependencies:
+   ```
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the development server:
+   ```
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your browser and go to `http://localhost:3000` to view the application.
 
-### `npm run eject`
+## Folder Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `public/`: Contains the main HTML file.
+- `src/`: Contains all the React components, CSS files, and mock data.
+  - `components/`: Individual components for different sections of the homepage.
+  - `css/`: Stylesheets for animations, CSS art, and main styles.
+  - `data/`: Mock data for employees, news, and events.
+  - `App.tsx`: Main application component.
+  - `index.tsx`: Entry point for the React application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the LICENSE file for more details.

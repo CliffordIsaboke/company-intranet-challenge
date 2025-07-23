@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Company Retreat Announcement",
+    "date": "2023-10-01",
+    "content": "Join us for our annual company retreat on October 15th! A great opportunity to relax and bond with your colleagues.",
+    "author": "HR Department"
+  },
+  {
+    "id": 2,
+    "title": "New Office Policies",
+    "date": "2023-09-28",
+    "content": "Please review the updated office policies that will take effect next month. Your feedback is appreciated.",
+    "author": "Management"
+  },
+  {
+    "id": 3,
+    "title": "Employee of the Month",
+    "date": "2023-09-25",
+    "content": "Congratulations to Jane Doe for being recognized as Employee of the Month for September! Keep up the great work!",
+    "author": "HR Department"
+  },
+  {
+    "id": 4,
+    "title": "Upcoming Training Sessions",
+    "date": "2023-09-20",
+    "content": "We will be hosting training sessions on new software tools next week. Sign up to enhance your skills!",
+    "author": "Training Team"
+  },
+  {
+    "id": 5,
+    "title": "Health and Wellness Fair",
+    "date": "2023-09-15",
+    "content": "Don't miss our Health and Wellness Fair on September 30th. Various activities and resources will be available.",
+    "author": "Wellness Committee"
+  }
+]

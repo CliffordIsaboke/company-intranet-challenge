@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Quarterly Team Building Event",
+        "date": "2023-10-15",
+        "time": "10:00 AM",
+        "location": "Conference Room A",
+        "description": "Join us for a fun-filled day of team-building activities and bonding."
+    },
+    {
+        "id": 2,
+        "title": "Monthly All-Hands Meeting",
+        "date": "2023-10-20",
+        "time": "2:00 PM",
+        "location": "Main Auditorium",
+        "description": "An opportunity for all employees to hear updates from the leadership team."
+    },
+    {
+        "id": 3,
+        "title": "Project Deadline: Alpha Release",
+        "date": "2023-10-30",
+        "time": "5:00 PM",
+        "location": "N/A",
+        "description": "Final deadline for the Alpha release of the project. Ensure all tasks are completed."
+    },
+    {
+        "id": 4,
+        "title": "Halloween Costume Contest",
+        "date": "2023-10-31",
+        "time": "3:00 PM",
+        "location": "Office Lobby",
+        "description": "Dress up in your best costume for a chance to win exciting prizes!"
+    },
+    {
+        "id": 5,
+        "title": "Thanksgiving Potluck",
+        "date": "2023-11-24",
+        "time": "12:00 PM",
+        "location": "Cafeteria",
+        "description": "Bring a dish to share and enjoy a festive meal with your colleagues."
+    }
+]
