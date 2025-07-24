@@ -125,15 +125,15 @@ const IntranetHome = () => {
               <h2 id="quicklinks-heading"><span className="section-icon">⚡</span> Quick Links</h2>
               <div className="quicklinks-grid">
                 {quickLinks.map((link, index) => (
-                  <a 
+                  <button 
                     key={index} 
-                    href="#" 
                     className="quicklink"
                     aria-label={link.name}
+                    onClick={() => alert(`Navigating to ${link.name}`)} // Replace with actual functionality
                   >
                     <span className="link-icon" aria-hidden="true">{link.icon}</span>
                     {link.name}
-                  </a>
+                  </button>
                 ))}
               </div>
             </section>
