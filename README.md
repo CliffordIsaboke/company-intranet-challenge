@@ -1,6 +1,6 @@
 # Company Intranet - Frontend Challenge Submission
 
-**Live Demo**: [View Demo](#) *(link to your hosted demo, see Step 2)*  
+
 
 ## Features
 ✅ Dark/Light Mode Toggle  
@@ -10,8 +10,8 @@
 
 ## How to Run Locally
 ```bash
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
+git clone https://github.com/CliffordIsaboke/company-intranet-challenge.git
+cd company-intranet-challenge
 npm install
 npm start
 ```
